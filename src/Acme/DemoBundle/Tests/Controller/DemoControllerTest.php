@@ -47,4 +47,9 @@ class DemoControllerTest extends WebTestCase
     {
         $this->assertEquals('test', 'test');
     }
+    
+    public function testRaphael()
+    {
+    	$this->assertEquals('raphael', 'thiel');
+    }
 }
