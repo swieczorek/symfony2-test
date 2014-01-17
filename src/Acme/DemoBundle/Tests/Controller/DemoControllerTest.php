@@ -45,6 +45,6 @@ class DemoControllerTest extends WebTestCase
     
     public function testMuha()
     {
-        $this->assertCount(1, 1);
+        $this->assertEquals('test', 'test');
     }
 }
